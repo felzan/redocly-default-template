@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "module": "es2015",
+    "target": "es5",
+    "jsx": "react",
+    "lib": [
+      "es6",
+      "dom",
+      "es2017.object",
+      "esnext"
+    ],
+    "allowJs": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "baseUrl": ".",
+    "paths": {
+      "RedocLy": [
+        "node_modules/@roman-hotsiy/redocly-dev-portal/engine/src/index"
+      ],
+      "RedocLy/*": [
+        "node_modules/@roman-hotsiy/redocly-dev-portal/engine/src/*"
+      ],
+    }
+  },
+  "include": [
+    "declarations.d.ts",
+    "./**/*"
+  ]
+}

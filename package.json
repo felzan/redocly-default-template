@@ -1,0 +1,17 @@
+{
+  "name": "test-portal",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Dev portal",
+  "license": "MIT",
+  "scripts": {
+    "start": "redocly-dev-portal develop -p 3000",
+    "build": "redocly-dev-portal build",
+    "clean": "rm -rf node_modules/@roman-hotsiy/redocly-dev-portal/engine/.cache/"
+  },
+  "dependencies": {
+    "@roman-hotsiy/redocly-dev-portal": "0.0.1-alpha.13",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}

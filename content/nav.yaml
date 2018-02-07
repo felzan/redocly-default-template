@@ -1,0 +1,35 @@
+horizontal:
+  - title: Overview
+    link: /getting-started/overview
+
+  - title: Reference
+    link: /reference
+
+  - title: Markdown sample
+    link: /markdown
+
+  - title: External docs
+    link: https://google.com
+
+footer:
+  copyrightText: Copyright © ExampleComp 2018. All right reserved
+  list:
+    - title: ReactJS
+      link: https://reactjs.org/
+    - title: GatsbyJS
+      link: https://www.gatsbyjs.org/
+  columns:
+    - title: Docs
+      items:
+        - title: Rebilly API Reference
+          link: 'https://rebilly.github.io/RebillyAPI/'
+        - title: Rebilly User API Reference
+          link: 'https://rebilly.github.io/RebillyUserAPI/'
+        - title: Rebilly Reports API Reference
+          link: 'https://rebilly.github.io/RebillyReportsAPI/'
+    - title: Support
+      items:
+        - title: FAQ
+          link: /faq
+        - title: Questions
+          link: /contact
