@@ -27,7 +27,7 @@ const icon1 = require('./images/icon1.png');
 const launchFastIcon = require('./images/launch-fast.svg');
 
 export default function(props) {
-  const { nav } = props.data;
+  const nav = JSON.parse(props.data.nav.config);                           
   return (
     <div>
       <Jumbotron>
